@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Range TextArea in html</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            <label for="vol">
+                Set volume :-
+            </label>
+            <input 
+            type="range"
+            min="10"
+            max="100"
+            id="vol"
+            name="volume"
+            step="5"
+            value="20"
+            >
+        </div>
+        <div>
+            <label for="feedback">Give your valuable feedback</label>
+            <textarea id="feedback" name="feedback" placeholder="write your feedback here "></textarea>
+        </div>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
